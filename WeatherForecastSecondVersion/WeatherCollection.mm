@@ -25,7 +25,7 @@ void WeatherCollection::addCity(NSString* cityName)
     
     parceWeatherJSON->takeDataFromUrlString(urlString);
     this->m_weatherCollection.push_back([WeatherPerThreeHour new]);
-    for(int i = 0; i < 40; ++i)
+    for(int i = 0; i < 37; ++i)
     {
         WeatherPerThreeHour* weatherPerThreeHour = [[WeatherPerThreeHour alloc]init];
         

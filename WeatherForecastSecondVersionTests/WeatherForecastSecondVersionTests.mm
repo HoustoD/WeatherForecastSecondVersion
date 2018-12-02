@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "GetDate.h"
 
 @interface WeatherForecastSecondVersionTests : XCTestCase
 
@@ -27,6 +28,14 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    GetDate *date = GetDate::Instance();
+    NSString *testDate = [NSString alloc];
+    NSString *rightDate = [NSString alloc];
+    
+    rightDate = @"1999-03-05";
+    testDate = date->checkDate(1999, 3, 5);
+    
+    XCTAssertEqualObjects(testDate, rightDate);
 }
 
 - (void)testPerformanceExample {

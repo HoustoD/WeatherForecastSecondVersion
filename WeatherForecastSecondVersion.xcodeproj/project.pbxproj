@@ -11,7 +11,7 @@
 		9559FCB3211EBDC800654A57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9559FCB2211EBDC800654A57 /* main.m */; };
 		9559FCB8211EBDC800654A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9559FCB7211EBDC800654A57 /* Assets.xcassets */; };
 		9559FCBB211EBDC800654A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9559FCB9211EBDC800654A57 /* Main.storyboard */; };
-		9559FCC6211EBDC800654A57 /* WeatherForecastSecondVersionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9559FCC5211EBDC800654A57 /* WeatherForecastSecondVersionTests.m */; };
+		9559FCC6211EBDC800654A57 /* WeatherForecastSecondVersionTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9559FCC5211EBDC800654A57 /* WeatherForecastSecondVersionTests.mm */; };
 		9559FCD1211EBDC800654A57 /* WeatherForecastSecondVersionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9559FCD0211EBDC800654A57 /* WeatherForecastSecondVersionUITests.m */; };
 		9559FCE3211EC06F00654A57 /* WeatherCollection.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9559FCE2211EC06F00654A57 /* WeatherCollection.mm */; settings = {ASSET_TAGS = (); }; };
 		9559FCE6211EC2FE00654A57 /* WeatherPerThreeHour.m in Sources */ = {isa = PBXBuildFile; fileRef = 9559FCE5211EC2FE00654A57 /* WeatherPerThreeHour.m */; settings = {ASSET_TAGS = (); }; };
@@ -48,7 +48,7 @@
 		9559FCBA211EBDC800654A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9559FCBC211EBDC800654A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9559FCC1211EBDC800654A57 /* WeatherForecastSecondVersionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherForecastSecondVersionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9559FCC5211EBDC800654A57 /* WeatherForecastSecondVersionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherForecastSecondVersionTests.m; sourceTree = "<group>"; };
+		9559FCC5211EBDC800654A57 /* WeatherForecastSecondVersionTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WeatherForecastSecondVersionTests.mm; sourceTree = "<group>"; };
 		9559FCC7211EBDC800654A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9559FCCC211EBDC800654A57 /* WeatherForecastSecondVersionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherForecastSecondVersionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9559FCD0211EBDC800654A57 /* WeatherForecastSecondVersionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherForecastSecondVersionUITests.m; sourceTree = "<group>"; };
@@ -152,7 +152,7 @@
 		9559FCC4211EBDC800654A57 /* WeatherForecastSecondVersionTests */ = {
 			isa = PBXGroup;
 			children = (
-				9559FCC5211EBDC800654A57 /* WeatherForecastSecondVersionTests.m */,
+				9559FCC5211EBDC800654A57 /* WeatherForecastSecondVersionTests.mm */,
 				9559FCC7211EBDC800654A57 /* Info.plist */,
 			);
 			path = WeatherForecastSecondVersionTests;
@@ -312,7 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9559FCC6211EBDC800654A57 /* WeatherForecastSecondVersionTests.m in Sources */,
+				9559FCC6211EBDC800654A57 /* WeatherForecastSecondVersionTests.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +525,7 @@
 				9559FCD7211EBDC800654A57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9559FCD8211EBDC800654A57 /* Build configuration list for PBXNativeTarget "WeatherForecastSecondVersionTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +534,7 @@
 				9559FCDA211EBDC800654A57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9559FCDB211EBDC800654A57 /* Build configuration list for PBXNativeTarget "WeatherForecastSecondVersionUITests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +543,7 @@
 				9559FCDD211EBDC800654A57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
