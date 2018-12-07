@@ -32,8 +32,8 @@
     NSString *testDate = [NSString alloc];
     NSString *rightDate = [NSString alloc];
     
-    rightDate = @"1999-03-05";
-    testDate = date->checkDate(1999, 3, 5);
+    rightDate = @"1999-00-05";
+    testDate = date->checkDate(1999, 0, 5);
     
     XCTAssertEqualObjects(testDate, rightDate);
 }

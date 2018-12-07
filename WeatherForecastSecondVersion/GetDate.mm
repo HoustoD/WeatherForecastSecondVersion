@@ -24,6 +24,19 @@ NSString* GetDate::checkDate(int year, int month, int day)
     NSString* dday = @"";
     NSString* mmonth = @"";
     
+    
+    if(year < 0){
+        year *= -1;
+    }
+    else if(month < 0){
+        month *= -1;
+    }
+    if(day < 0){
+        day *= -1;
+    }
+
+
+    
     if((day - 10) < 0)
     {
         dday = [NSString stringWithFormat:@"0%i",day];

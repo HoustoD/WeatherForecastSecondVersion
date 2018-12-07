@@ -221,5 +221,6 @@
     NSString* selectedDate = [sender title];
     
     mainDictForUpdatingWetherOnUI = updateWetherOnUI->getMainDictForUpdatingWetherOnUI(self.curentCity, selectedDate);
+    [tableView reloadData];
 }
 @end
